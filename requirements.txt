@@ -1,0 +1,5 @@
+fastapi
+aiohttp
+pytz
+numpy
+google-cloud-storage

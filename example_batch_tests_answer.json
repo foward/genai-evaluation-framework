@@ -1,0 +1,25 @@
+{
+    "api_endpoint": "http://127.0.0.1:8000/YOUR_LLM_ENDPOINT",
+    "parameters": {
+      "number_results": 10,
+      "threshold": 0.6,
+      "llm_model_name": "text-bison",
+      "llm_max_output_tokens": 2048,
+      "llm_temperature": 0.2,
+      "llm_top_p": 0.95,
+      "llm_top_k": 40,
+      "llm_verbose": true,
+      "lgc_search_type": "similarity",
+      "retrieval_chain_type": "stuff"
+
+    },
+    "questions": [
+      {
+        "query": "What is a threshold for procurement?",
+        "expected_answer": "€1,000 per contractor"
+      },{
+        "query": "What is a Baseline Itinerary ?",
+        "expected_answer": "A baseline itinerary is defined as the most direct and economical"
+      }
+    ]
+  }
